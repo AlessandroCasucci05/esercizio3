@@ -1,0 +1,17 @@
+
+
+
+<div *ngFor="let ele of posts" class="list-group mt-4 container-lg">
+  <div *ngIf="!ele.attivo">
+  <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">{{ele.type}}</h5>
+    </div>
+    <p class="mb-1">{{ele.title}}</p>
+    <div class="d-flex w-100 justify-content-between">
+      <small>{{ele.id}}</small>
+      <button type="button" class="btn btn-success" (click)="attiva(ele,$event)">Attiva</button>
+    </div>
+  </a>
+ </div>
+</div>

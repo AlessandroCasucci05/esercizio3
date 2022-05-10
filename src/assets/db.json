@@ -1,0 +1,32 @@
+[
+  {
+    "title":"Lorem ipsum dolor sit amet",
+    "id": 1,
+    "attivo":true,
+    "type": "Cucina"
+  },
+  {
+    "title":"Lorem ipsum dolor sit amet",
+    "id": 2,
+    "attivo":false,
+    "type": "Cronaca"
+  },
+  {
+    "title":"Lorem ipsum dolor sit amet",
+    "id": 3,
+    "attivo":false,
+    "type": "Cinema"
+  },
+  {
+    "title":"Lorem ipsum dolor sit amet",
+    "id": 4,
+    "attivo":true,
+    "type": "Cinema"
+  },
+  {
+    "title":"Lorem ipsum dolor sit amet",
+    "id": 5,
+    "attivo":true,
+    "type": "Cronaca"
+  }
+]
